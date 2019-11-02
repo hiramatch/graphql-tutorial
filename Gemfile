@@ -38,6 +38,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'graphql', '1.8.13'
 gem 'rb-readline'
 gem 'bcrypt', '~> 3.1.7'
+gem "nokogiri", ">= 1.10.4"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
