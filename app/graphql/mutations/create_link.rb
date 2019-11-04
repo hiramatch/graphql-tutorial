@@ -6,7 +6,10 @@ module Mutations
 
     # return type from the mutation
     type Types::LinkType
-
+# gggg
+# gggg
+# gggg
+# gggg
     def resolve(description: nil, url: nil)
       Link.create!(
         description: description,

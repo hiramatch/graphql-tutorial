@@ -12,6 +12,9 @@ module Mutations
     type Types::UserType
 # eeeee
 # eeeee
+# fffff
+# fffff
+# fffff
 
     def resolve(name: nil, auth_provider: nil)
       User.create!(
